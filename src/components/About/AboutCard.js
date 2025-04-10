@@ -8,30 +8,35 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Dorian Senecot </span>
-            from <span className="purple"> Paris, France.</span>
+            Bonjour, je suis <span className="purple">Dorian Senecot </span>
+            de <span className="purple"> Lyon, France.</span>
             <br />
-            I am currently a student at Epitech.
+            Je suis étudiant en 3ème année à Epitech Lyon et passionné par l'intelligence artificielle.
+            <br />
+            Je me spécialise en gestion de projets et en développement full stack.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            En dehors du code, j'aime:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Voyages
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Activités culinaires
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Piano
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Musculation
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "S'efforcer de construire des solutions qui changent le monde!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Dorian</footer>
         </blockquote>
       </Card.Body>
     </Card>
