@@ -87,6 +87,17 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Your Project Title"
+              description="Your project description goes here."
+              ghLink="https://github.com/doriansenecot/your-repo"
+              demoLink="https://your-demo-link.com/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
